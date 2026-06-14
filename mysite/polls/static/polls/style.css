@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient( 135deg, #e0b5a0, #8b7caf );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 700px;
+    background: rgba(68 15 220 / 15%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.question-list {
+    list-style: none;
+    padding: 0;
+}
+
+.question-card {
+    margin-bottom: 15px;
+}
+
+.question-card a {
+    display: block;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.question-card a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
