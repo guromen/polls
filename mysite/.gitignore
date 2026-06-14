@@ -4,6 +4,7 @@
 venv/
 env/
 media/
+db.sqlite3
 .env.local
 .env.development.local
 .env.test.local
