@@ -11,7 +11,7 @@ from django.core.wsgi import get_wsgi_application
 import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
-# application = get_wsgi_application()
+application = get_wsgi_application()
 # from django.contrib.auth import get_user_model
 #
 # def create_superuser():
